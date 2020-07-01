@@ -1,21 +1,21 @@
 language: node_js
-
 cache:
   directories:
     - node_modules
     - ~/.npm
-
 node_js:
   - '12'
-
 git:
   depth: 3
-
+script:
+  - yarn test
 notifications:
   slack: dbascmconsis:OGMNp9zTyCRkYTY5tskK3Mjc
+  email:
+    reciepients:
+      - uztarizjorge@gmail.com
     on_success: always
     on_failure: always
-
 deploy:
   provide: heroku
   skip-cleanup: true
