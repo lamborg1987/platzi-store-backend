@@ -11,9 +11,6 @@ node_js:
 git:
   depth: 3
 
-script:
-  - yarn test
-
 notifications:
   slack: dbascmconsis:OGMNp9zTyCRkYTY5tskK3Mjc
     on_success: always
