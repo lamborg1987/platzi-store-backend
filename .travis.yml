@@ -18,8 +18,8 @@ notifications:
     on_success: always
     on_failure: always
 deploy:
-  provide: heroku
-  skip-cleanup: true
+  provider: heroku
+  cleanup: false
   keep-history: true
   api_key:
     secure: qIYaMhLnt5EsR7g4T9Pfj/n4snbr1G30qCNFt24ClZqXJmGsq0DXTYrUOG6gyk9e2VC3WnZIneDvqWHXTYu+F43QyYeziXGmLQ6pYf6pXQdkJyQbLQJ9dNUBidKfjMEBdZ3foXx8/A3icLyovJvcuHfG7SQyjXxNTsy2UI8J73t+rvEhtEW3hPEvKaAq6kRYwsP7FexE+9n5S8byTNb6ghPCVADcmhVEnZTPL1QlB87h7UwqsxgURIP9btCHBpuna+0QmXqYwDTzFO7zD+kvAvzI8Boc200+dWrNFX6eqdhSUo3gaJxrAsx5xKxDZHjR28/xM/9sNFcbO5lJG0pCyEUjEQXRLh+wFtfVeaioNqk6cMNxtZmuT3Ht2r6Ih7WDQf8OZZk39WGgnDh8ueeRqO0cgkTI2rIhF/q8w+V8D8YPbdzRHDqk/qorhCAluy6WG2aQNe1yjxl4nTFHUnE49xhAFDJA3L1AZMYWYjDwca3LIam+pMBjulNoMXEVoYydsswmzfD4Ttyz2spEzmrQxJLbxtsxAT2enEDhNNjxBTeq1d/IzzYOXf3bugUAs4zzWDrMQDn8lfmJCDM7G/3RkK+aPVWgSbpuYUM7XYmXvDuifSp38L6nQ3+HHSjucl4BGNDeXCk5R7YzNgCF9+2+uO/rr/wu+mgasuQGJuDfiDc=
