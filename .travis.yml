@@ -13,7 +13,7 @@ notifications:
   slack:
     secure: DGOnEb00RKVtFgfFyIMnszJGaKNsm+YcOGw0H6brYFWYK4Ys7poiu1zW/rUlKOgnOPifkOQ3yjG6zHHKWEZoWBKl04jlLfGo+XJtU6v8SVRPCKx3CtVGs5hpXXAwHqCeMMlwyNbx5xS5jYKfpCEc6sZBGqEDgIhD2gVAxjd7R2Gv05iJ5Q3Ra9wgkpRrLt4IhTmwRlDIfjRsfyh5DIFm0s7MiMNMukDjgbEVdHYyLq2GQJt5XTbsi502huUsRtFcle4KDsSPRc/rOnWXAFehL9Aa3W3bF3rrBuGYBGj27ZHxDYcsWI6s9ZcPJoOKZzoM9ReqYPHfiAiG029mjiST474WskgWC95KIRObpIF61tkf/BrgJwzKvEm9iMmeLn2VtiMorYtrS6eQF1aq5WZjus/A005S+LPd7CzjZiLX+tmeHTaPs5Buw8TUJudyo0NQcLY+6Y0o5O1n3jQMVCfc3D/Lb/AFj2zb0xonNGLxK7+/0OQflrW5sF8nn17SZfEWwAOBL68uXo/UNtHiBocRato1AjlI54QUIQ1LHfRrSn7cMGsjYqY5oDRIVs/n2uLLgcNFFhhjaGeF6my0a6wImeIgP/iyd9uDzSdI/ilT1jlZ315+3edJJHlF8yIDRfGXBAM73DmN9jqo6WJ9x3Ih1AZ2T5l+4PN07USQj5daEFQ=
   email:
-    reciepients:
+    recipients:
     - uztarizjorge@gmail.com
     on_success: always
     on_failure: always
